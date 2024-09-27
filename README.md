@@ -1,17 +1,15 @@
-# minimal-reproduction-template
+# 31654
 
-First, read the [Renovate minimal reproduction instructions](https://github.com/renovatebot/renovate/blob/main/docs/development/minimal-reproductions.md).
-
-Then replace the current `h1` with the Renovate Issue/Discussion number.
+Reproduction for [Renovate discussion 31654](https://github.com/renovatebot/renovate/discussions/31654)
 
 ## Current behavior
 
-Explain the current behavior here.
+Renovate tries to upgrade numpy to version [2.1.1](https://pypi.org/project/numpy/2.1.1/) even though it is incompatible with the python version 3.9.
 
 ## Expected behavior
 
-Explain the expected behavior here.
+Renovate should upgrade numpy to the lastest valid version which is [2.0.2](https://pypi.org/project/numpy/2.0.2/) relative to the current python version.
 
 ## Link to the Renovate issue or Discussion
 
-Put your link to the Renovate issue or Discussion here.
+[Renovate discussion 31654](https://github.com/renovatebot/renovate/discussions/31654)
