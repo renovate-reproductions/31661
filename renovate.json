@@ -1,6 +1,13 @@
 {
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "constraintsFiltering": "strict",
     "extends": [
         "config:recommended"
+    ],
+    "packageRules": [
+        {
+            "allowedVersions": "<3.12",
+            "matchDepNames": ["python"]
+        }
     ]
 }
