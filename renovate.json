@@ -8,6 +8,9 @@
         {
             "allowedVersions": "<3.12",
             "matchDepNames": ["python"]
+        }, {
+            "matchPackageNames": ["numpy"],
+            "versioning": "poetry"
         }
     ]
 }
